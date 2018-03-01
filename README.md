@@ -11,5 +11,7 @@ checks for payoffs and early exercise from N back to the present day.
 
 
 
-The implementation comes from James Ma's excellent 'Python For Finance', with some slight variations to use calendar dates 
-and then fitting the tree branching to implied volatility.  
+The implementation has some slight variations to use calendar dates 
+and then fitting the tree branching to implied volatility from James Ma's excellent 'Python For Finance'.
+
+Pricing of a European and American call USD/JPY Put, 8.15% vol, yields values of USD 106,080 and USD 112,593 respectively, versus professional pricers of USD 104,500 and USD 112,000.  
